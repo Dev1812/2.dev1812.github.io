@@ -30,6 +30,24 @@ textarea {
 .photo-gl-wrap{width:100%!important;padding:9px 21px!important}
 
 .container2{padding:74px 6px 5px 6px!important}
+.head{padding:0 0!important}
+
+.st-photo__image {
+    width: 100%!important;
+    height: 151px!important;
+
+}
+
+
+.st-photo__block{
+
+    vertical-align: top!important;
+    width: 100%!important;}
+
+
+
+.head-go-back{display:none}
+
 }
 @media (min-width: 425px) and (max-width: 1024px){
   /* TABLET */
@@ -74,11 +92,6 @@ a{color:blue;text-decoration: none;}
 .head-item{color:#FFF}
 
 .footer{padding:14px;border-top:1px solid #DDD;text-align:center;background-color:#FFF}
-
-
-
-
-
 
 
 
