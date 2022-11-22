@@ -39,6 +39,8 @@ textarea {
 }
 
 
+.container{position:relative}
+.head-item{padding:21px 19px}
 .st-photo__block{
 
     vertical-align: top!important;
@@ -83,7 +85,7 @@ a{color:blue;text-decoration: none;}
 
 .head{text-align:center;position:relative!important;
     z-index: 9;}
-.head-item{padding:32px 19px;display:inline-block;cursor:pointer;color:#FFF!important}
+.head-item{padding:21px 19px;display:inline-block;cursor:pointer;color:#FFF!important}
 .head-item:hover{border-bottom:1px solid #FFF}
 .container{width:67%;margin:0 auto;padding:34px;;line-height:29px;position:relative}
 
