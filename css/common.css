@@ -5,13 +5,15 @@ input[type="text"],input[type="email"],input[type="tel"],input[type="number"],te
 .big-photo{width:100%!important;height:310px!important;margin-bottom:14px}
 .head-wrap{width:100%!important;padding:0 1px!important}
 .line_2{margin:0}
-.head-item{padding:20px 13px!important}
+.head-item{padding:20px 13px!important;
+    font-weight: bold;}
 .photo-gl-wrap{width:100%!important;padding:9px 21px!important}
 .container2{padding:74px 6px 5px!important}
 .head{padding:0!important}
 .st-photo__image{width:100%!important;height:151px!important}
 .container{position:relative}
-.head-item{padding:21px 19px}
+.head-item{padding:21px 19px;
+    font-weight: bold;}
 .st-photo__block{vertical-align:top!important;width:100%!important}
 .head-go-back{display:none}
 }
