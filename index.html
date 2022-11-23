@@ -42,25 +42,60 @@ a{color:#000;text-decoration:none}
 .nav__link_active{border-bottom:1px solid blue}
 .footer{text-align:center;padding:14px 0;border-top:1px solid #DDD}
 </style>
+
+<script>
+	var current_item_showen=1;
+function onNavClick(item_id) {
+document.getElementById('nav_item_'+current_item_showen).classList.remove('nav__link_active');
+document.getElementById('nav_item_'+item_id).classList.add('nav__link_active');
+current_item_showen=item_id;
+
+}
+
+	</script>
+
+<style>
+.work-block{width:47%;margin:0 auto 54px;padding:34px 0;text-align:center;line-height:29px}
+.work-block__image{width:240px;margin-right:34px;margin:0 auto;display:inline-block}
+.work-title{font-weight:bold;margin-top:19px;margin-bottom:14px;color:#000;}
+.nav_sticky{position:fixed;top:0;left:0;right:0;box-shadow:0 0 9px #ebebeb;}
+.nav_sticky .nav__link{padding:14px 19px;}
+.work-body{color:#000}
+</style>
+
+
+<script>
+window.onscroll = function(){
+if(window.pageYOffset > 1357) {
+	document.getElementById('nav').classList.add('nav_sticky');
+} else {
+	document.getElementById('nav').classList.remove('nav_sticky');
+
+}
+};
+
+
+
+</script>
 </head>
 <body>
 <div id="wrap1">
 
-<div class="head">
 
-<div class="head-wrap">
+
+<div class="head">
+ <div class="head-wrap">
 
 <div class="head-left">
   <a class="head-item">Исаев Тимур. Fullstack-developer</a> 
 </div>
-
 <div class="head-right">
   <a class="head-item"></a>
 </div>
-
+</div>
 </div>
 
-</div>
+
 <div class="content">
 
 
@@ -143,15 +178,11 @@ a{color:#000;text-decoration:none}
 
 <div>
 <div style="font-weight:bold;">Навыки</div>
-<div style="margin-left:14px;font-size:.9em">
-HTML, CSS, JavaScript, PHP, mySQL, sql. etc
-</div>
-
-
+<div style="margin-left:14px;font-size:.9em">HTML, CSS, JavaScript, PHP, mySQL, sql. etc</div>
 </div>
 
 <div>
-<div style="font-weight:bold;">Навыки</div>
+<div style="font-weight:bold;">Секции</div>
 <div style="margin-left:14px;font-size:.9em">
 <img src="image/aptech.png">
 </div>
@@ -162,7 +193,7 @@ HTML, CSS, JavaScript, PHP, mySQL, sql. etc
 
 
 <div>
-<div style="font-weight:bold;">курсы</div>
+<div style="font-weight:bold;">Курсы</div>
 <div style="margin-left:14px;font-size:.9em">
 
 APTECH, Профессиональный программист(2014)
@@ -289,17 +320,7 @@ APTECH, Профессиональный программист(2014)
 
 <div class="nav" id="nav">
 
-<div><script>
-	var current_item_showen=1;
-function onNavClick(item_id) {
-document.getElementById('nav_item_'+current_item_showen).classList.remove('nav__link_active');
-document.getElementById('nav_item_'+item_id).classList.add('nav__link_active');
-current_item_showen=item_id;
-
-}
-
-	</script>
-
+<div>
 <a class="nav__link nav__link_active"  id="nav_item_1" href="#work_1" onClick="onNavClick(1);">Супер-повар</a>
 <a class="nav__link" href="#work_2"  id="nav_item_2" onClick="onNavClick(2);">Юрий Гаарин</a>
 <a class="nav__link" href="#work_3"  id="nav_item_3" onClick="onNavClick(3);">Уроки Java</a>
@@ -309,29 +330,6 @@ current_item_showen=item_id;
 
 </div>
 
-<style>
-.work-block{width:47%;margin:0 auto 54px;padding:34px 0;text-align:center;line-height:29px}
-.work-block__image{width:240px;margin-right:34px;margin:0 auto;display:inline-block}
-.work-title{font-weight:bold;margin-top:19px;margin-bottom:14px;color:#000;}
-.nav_sticky{position:fixed;top:0;left:0;right:0;box-shadow:0 0 9px #ebebeb;}
-.nav_sticky .nav__link{padding:14px 19px;}
-.work-body{color:#000}
-</style>
-
-
-<script>
-window.onscroll = function(){
-if(window.pageYOffset > 1357) {
-	document.getElementById('nav').classList.add('nav_sticky');
-} else {
-	document.getElementById('nav').classList.remove('nav_sticky');
-
-}
-};
-
-
-
-</script>
 
 <a id="work_1">
 <div class="work-block">
