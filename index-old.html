@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Тимур Исаев</title>
+	<style>html,body{margin:0;font-family:'Roboto',sans-serif;font-size:1em}
+.head{text-align:center}
+.head-item{display:inline-block;padding:19px 14px;color:#000}
+.welcome-layer__title{font-size:1.9em;margin-bottom:19px}
+.welcome-layer__text{color:gray}
+.big-photo{background-image:url('image/03fPl38into (2).jpg');width:390px;height:390px;background-position:center 0;background-size:cover;border-radius:9px;float:right;margin-left:45px}
+.welcome-layer__wrapper{line-height:31px}
+.lazy_photo{background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:9px;width:100%;height:240px;border:1px solid #CCC}
+.portfolio-container__block{width:32%;display:inline-block;padding:3px;cursor:pointer}
+.portfolio-container__image:hover{box-shadow:0 0 24px #626262;transition:all .14s ease}
+.portfolio-container{border-top:1px solid #DDD;margin:64px auto;text-align:center}
+.portfolio-container__title{margin-top:12px;margin-bottom:29px;text-align:center}
+.portfolio-container__title_text{border-bottom:1px dashed #000;color:#000}
+.portfolio-container__image_wrap{padding:11px;padding:1px;background-size:cover;background-position:center;border-radius:9px}
+.portfolio-container__title_text{font-size:.9em}
+.portfolio-container__title_v2{margin-bottom:34px;margin-top:34px;font-size:1.3em}
+.welcome-layer___wrap{width:65%;margin:0 auto}
+@media (max-width: 425px) {
+.big-photo{width:100%!important;margin-bottom:16px!important}
+.welcome-layer___wrap{width:100%!important;margin:0 4px}
+.portfolio-container__block{width:100%!important}
+.welcome-layer__title{text-align:center}
+.head-item{display:inline-block!important;padding:20px 14px!important}
+.welcome-layer__text{padding:6px 24px!important}
+.work-block__image{width:100%!important}
+.work-block{width:100%!important}
+.nav{display:none}
+
+.work-body{padding:7px 22px!important}
+.aptech-photo{width:100%!important}
+}
+.line_2{padding:9px 0}
+a{color:#000;text-decoration:none}
+.portfolio-container__wrap1{width:70%;margin:0 auto}
+.nav{border-bottom:1px solid #DDD;text-align:center;background-color:#FFF;transition:all .924s ease}
+.nav__link{display:inline-block;padding:9px;cursor:pointer}
+.nav__link:hover{color:#000}
+.nav__link_active{border-bottom:1px solid blue}
+.footer{text-align:center;padding:14px 0;border-top:1px solid #DDD}
+.work-block{width:47%;margin:0 auto 54px;padding:34px 0;text-align:center;line-height:29px}
+.work-block__image{width:240px;margin-right:34px;margin:0 auto;display:inline-block}
+.work-title{font-weight:bold;margin-top:19px;margin-bottom:14px;color:#000;}
+.nav_sticky{position:fixed;top:0;left:0;right:0;box-shadow:0 0 9px #ebebeb;}
+.nav_sticky .nav__link{padding:14px 19px;}
+.work-body{color:#000}
+.text{margin-left:14px;font-size:.9em}
+.text1{  font-weight:bold;}
+.text2{ margin-left:14px;font-size:.9em}
+</style>
+
+<script>
+var current_item_showen=1;
+  function onNavClick(item_id) {
+  document.getElementById('nav_item_'+current_item_showen).classList.remove('nav__link_active');
+  document.getElementById('nav_item_'+item_id).classList.add('nav__link_active');
+  current_item_showen=item_id;
+}
+window.onscroll = function() {
+  if(window.pageYOffset > 1357) {
+  	document.getElementById('nav').classList.add('nav_sticky');
+  } else {
+	document.getElementById('nav').classList.remove('nav_sticky');
+  }
+};
+	</script>
+</head>
+<body>
+<div id="wrap1">
+
+<div class="head">
+ <div class="head-wrap">
+
+<div class="head-left">
+  <a class="head-item">Исаев Тимур. Fullstack-developer</a> 
+</div>
+<div class="head-right">
+  <a class="head-item"></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="content">
+<div>
+<div class="welcome-layer">
+<div class="welcome-layer__about_text">
+<div class="welcome-layer___wrap">
+<div class="welcome-layer__title">Исаев Тимур</div>
+<div class="welcome-layer__text">
+<div class="photo-gl-wrap">
+<div class="big-photo"></div>
+<div style></div>
+
+<div class="welcome-layer__wrapper">
+
+<div>
+<div class="text1">Обо мне</div>
+<div class="text2">
+
+<div class="line_2">Я - разработчик. Создаю сайты более 4 лет.</div>
+
+
+<div class="line">Всего я создал и починил более 14 сайтов.</div>
+
+</div>
+
+
+</div>
+<div>
+  <div style="font-weight:bold;">Образование</div>
+  <div class="text">СГТУ им. Гагарина (2016 - по н.в.) (незаконченное высшее)</div>
+</div>
+
+<div>
+  <div style="font-weight:bold;">Навыки</div>
+  <div class="text">HTML, CSS, JavaScript, PHP, mySQL, sql</div>
+</div>
+
+<div>
+  <div style="font-weight:bold;">Секции</div>
+  <div style="margin-left:14px;font-size:.9em"><img src="image/aptech.png" class="aptech-photo"></div>
+</div>
+
+
+
+<div>
+  <div style="font-weight:bold;">Курсы</div>
+  <div class="text">APTECH, Профессиональный программист(2014)</div>
+</div>
+
+<div>
+  <div style="font-weight:bold;">Контакты</div>
+  <div class="text">
+    <div class="line_2"><a href="http://github.com/Dev1812" style="color:blue">http://github.com/Dev1812</a></div>
+    <div class="line_2"><a href="https://vk.com/timka_issaev" style="color:blue">https://vk.com/timka_issaev</a></div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="portfolio-container">
+<div class="portfolio-container__wrap1">
+<div class="portfolio-container__wrap">
+
+<div class="portfolio-container__title_v2">Портфолио (5)</div>
+
+<a href="#work_1">
+<div class="portfolio-container__block">
+<div class="portfolio-container__image_wrap">
+<div class="portfolio-container__image lazy_photo" style="background-image:url('image/04e26fa8bfc55b5a010f289e1d499ea1.jpg');"></div></div>
+<div class="portfolio-container__title"><span class="portfolio-container__title_text">Супер-повар</span></div>
+</div></a>
+
+
+<a href="#work_2">
+<div class="portfolio-container__block">
+<div class="portfolio-container__image_wrap">
+<div class="portfolio-container__image lazy_photo" style="background-image:url('image/499455782.png');"></div></div>
+<div class="portfolio-container__title"><span class="portfolio-container__title_text">Юрий Гагарин</span></div>
+</div>
+</a>
+
+<a href="#work_3">
+<div class="portfolio-container__block">
+<div class="portfolio-container__image_wrap" style="
+    background-image:url('image/546417671.jpg');">
+<div class="portfolio-container__image lazy_photo"></div></div>
+<div class="portfolio-container__title"><span class="portfolio-container__title_text">Уроки Java</span></div>
+</div>
+
+</a>
+<a href="#work_4">
+
+<div class="portfolio-container__block">
+<div class="portfolio-container__image_wrap" style="
+    background-image:url('image/499456018.png');">
+<div class="portfolio-container__image lazy_photo"></div></div>
+<div class="portfolio-container__title"><span class="portfolio-container__title_text">Бизнес 2.0</span></div>
+</div>
+
+
+</a>
+<a href="#work_5">
+
+<div class="portfolio-container__block">
+<div class="portfolio-container__image_wrap" style="
+    background-image:url('image/hall1.jpg');">
+<div class="portfolio-container__image lazy_photo"></div></div>
+<div class="portfolio-container__title"><span class="portfolio-container__title_text">Гостиница art-apart</span></div>
+</div>
+
+</a>
+
+
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div>
+
+<div class="work-container">
+
+<div class="nav" id="nav">
+
+<div>
+<a class="nav__link nav__link_active"  id="nav_item_1" href="#work_1" onClick="onNavClick(1);">Супер-повар</a>
+<a class="nav__link" href="#work_2"  id="nav_item_2" onClick="onNavClick(2);">Юрий Гагарин</a>
+<a class="nav__link" href="#work_3"  id="nav_item_3" onClick="onNavClick(3);">Уроки Java</a>
+<a class="nav__link" href="#work_4"  id="nav_item_4" onClick="onNavClick(4);">Бизнес 2.0</a>
+<a class="nav__link" href="#work_5" id="nav_item_5" onClick="onNavClick(5);">Гостиница art-apart</a>
+</div>
+
+</div>
+
+
+<a id="work_1">
+<div class="work-block">
+	<div class="portfolio-container__image lazy_photo work-block__image" style="background-image:url('image/04e26fa8bfc55b5a010f289e1d499ea1.jpg');"></div>
+	<div class="work-title">Сайт супер-повар</div>
+	<div class="work-body">
+Я создал сайт для конкурса Цифровой ветер. На сайте есть возможность создавать рецерты. Создание заняло к меня 3 недели. Сайт создан с помощью html, css, js, php, mysql etc. Веб-сайт : <a href="http://n90302lz.beget.tech/" style="color:blue">http://n90302lz.beget.tech/</a>	</div>
+</div>
+</a>
+
+
+<a id="work_2">
+<div class="work-block">
+	<div class="portfolio-container__image lazy_photo work-block__image" style="
+    
+    background-image:url('image/499455782.png');"></div>
+	<div class="work-title">Юрий Гагарин</div>
+	<div class="work-body">Мною в рамках конкурса "Цифровой ветер" был создан сайт про Юрия Гагарина . Технологии: html, css, js, php, mysql etc
+	</div>
+</div>
+</a>
+
+
+<a id="work_3">
+
+<div class="work-block">
+	<div class="portfolio-container__image lazy_photo work-block__image" style="background-image:url('image/546417671.jpg');;"></div>
+	<div class="work-title">Сайт обучение Java</div>
+	<div class="work-body">
+
+
+Мною в рамках конкурса "Цифровой ветер" было создан веб-сайт про обучение языка программирвания Java.
+
+	</div>
+
+</div>
+</a>
+
+
+
+<a id="work_4">
+<div class="work-block">
+	<div class="portfolio-container__image lazy_photo work-block__image" style="background-image:url('image/499456018.png');"></div>
+	<div class="portfolio-container__image lazy_photo work-block__image" style="background-image:url('image/96ef9aad697f4cc89a58e92651123610.jpg');"></div>
+
+	<div class="work-title">Сайт бизнес 2.0</div>
+	<div class="work-body">
+
+Мною в рамках конкурса "Цифровой ветер" было создано приложение про предпринимателей и защиту бизнеса . html, css, javascript
+
+
+</div>
+</div>
+</a>
+
+
+
+
+
+
+<a id="work_5">
+<div class="work-block">
+	<div class="portfolio-container__image lazy_photo work-block__image" style="
+    
+
+    background-image:url('image/hall1.jpg');;"></div>
+	<div class="work-title">Сайт бизнес 2.0</div>
+	<div class="work-body">
+"Камерный отель в атмосфере арт галереи. С радостью станет Вашим Домом в центре Петербурга"<a style="color:blue" href=" https://www.artapart.art/"> https://www.artapart.art/</a>	</div>
+</div>
+
+</a>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+<div class="footer">
+
+Исаев Тимур
+</div>
+
+</div>
+</body>
+</html>
